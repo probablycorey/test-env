@@ -1,0 +1,38 @@
+{
+  "name": "test-env",
+  "env": {
+    "REACT_APP_APP_JSON_ENV": {
+      "value": "YES"
+    },
+    "REACT_APP_APP_JSON": {
+      "value": "YES"
+    }
+  },
+  "environments": {
+    "test": {
+      "env": {
+        "REACT_APP_APP_JSON_ENVIRONMENTS_TEST": {
+          "value": "YES"
+        },
+        "REACT_APP_OVERWRITE": {
+          "value": "ENVIRONMENTS_TEST"
+        }
+      }
+    },
+    "production": {
+      "env": {
+        "REACT_APP_APP_JSON_ENVIRONMENTS_PRODUCTION": {
+          "value": "YES"
+        },
+        "REACT_APP_OVERWRITE": {
+          "value": "ENVIRONMENTS_ENVIRONMENTS_PRODUCTION"
+        }
+      }
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/mars/create-react-app-buildpack.git"
+    }
+  ]
+}
