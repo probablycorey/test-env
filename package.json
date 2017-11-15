@@ -8,8 +8,8 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "env $(node ./script/env.js | xargs) react-scripts start",
-    "build": "env $(node ./script/env.js | xargs) react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

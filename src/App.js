@@ -5,7 +5,9 @@ class App extends Component {
     return (
       <div>
         ENVS
-        {JSON.stringify(process.env)}
+        <pre>
+        {JSON.stringify(process.env, null, 2)}
+        </pre>
       </div>
     );
   }
