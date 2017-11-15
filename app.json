@@ -4,8 +4,8 @@
     "REACT_APP_APP_JSON_ENV": {
       "value": "YES"
     },
-    "REACT_APP_APP_JSON": {
-      "value": "YES"
+    "REACT_APP_OVERWRITE": {
+      "value": "APP_JSON"
     }
   },
   "environments": {
